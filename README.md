@@ -20,6 +20,14 @@ One line, 92 characters. A light, funny take on everyday life: the smart speaker
 python3 -P -s main.py
 ```
 
+Check the line without writing anything (prints the line and its length):
+
+```sh
+python3 -P -s main.py --check
+```
+
+Set `MAKEFUN_OUTPUT_DIR` to write somewhere else, e.g. `MAKEFUN_OUTPUT_DIR=/tmp/out python3 -P -s main.py`.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
